@@ -1,4 +1,10 @@
 @tailwind base;
 /* Write your global styles here, in PostCSS syntax */
+* {
+	box-sizing: border-box;
+}
+h1 {
+	@apply text-4xl lg:text-5xl;
+}
 @tailwind components;
-@tailwind utilities
+@tailwind utilities;
